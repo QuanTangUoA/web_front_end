@@ -3,15 +3,35 @@
     margin: 0px;
     padding: 0px;
 }
+
+div {
+    text-align: center;
+    font-size: 48px;
+}
+
 p {
     clear: right;
     padding: 10px;
 }
+
 h1 {
     text-align: center;
     width: 40%;
-    background-color: brown;
     float: right;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.sec1{
+    background-color: brown;
+}
+
+.sec2{
+    background-color: yellowgreen;
+}
+
+.sec3{
+    background-color: blueviolet;
 }
 /*tablet*/
 @media (min-width: 768px) and (max-width: 991px){
@@ -20,7 +40,6 @@ h1 {
         background-color: rgb(174, 172, 172);
         border-width: 1px;
         border-style: solid;
-        padding: 8px;
         float: left;
         margin: 1%;
     }
@@ -29,6 +48,9 @@ h1 {
     }
     .section3{
         width: auto;
+    }
+    .sec3{
+        width: 20%;
     }
 
 } 
@@ -40,7 +62,6 @@ h1 {
         background-color: rgb(174, 172, 172);
         border-width: 1px;
         border-style: solid;
-        padding: 8px;
         width: 30%;
         float: left;
         margin: 1.66%;
@@ -54,7 +75,6 @@ h1 {
         background-color: rgb(174, 172, 172);
         border-width: 1px;
         border-style: solid;
-        padding: 8px;
         margin: 1%;
     }
 }
