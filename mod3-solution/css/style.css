@@ -1,0 +1,8 @@
+.navbar-nav, #main-content h4{
+    text-align: center;
+}
+
+#Chicken, #Sushi, #Beef{
+    background-color: grey;
+    margin: 50px;
+}
