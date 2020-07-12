@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(0, 75, 0);
+}
+
+#header-nav{
+    background-color: white;
+}
+
+#logo-img{
+    background: url("main_pic.png") no-repeat;
+    width: 130px;
+    height: 124px;
+}
+
+.navbar-brand{
+    padding: 18px;
+}
+
+.navbar-brand a:hover{
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggler{
+    border: 1px solid green;
+    clear: both;
+}
+
+.title{
+    color: green;
+}
+
+.nav-link{
+    font-size: 28px;
+}
+
+#nav-list{
+    text-align: center;
+}
+
+.pic1 {
+    background: url("pic1.png") no-repeat;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    box-shadow: 0 0 50px rgb(12, 63, 22);
+    border: 2px solid rgb(12, 63, 22);
+}
+
+#subject1-tile, #subject2-tile, #subject3-tile{
+    height: 250px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid green;
+    overflow: hidden;
+}
+
+#subject1-tile:hover, #subject2-tile:hover, #subject3-tile:hover{
+    box-shadow: 0 1px 5px 1px green;
+}
+
+#subject1-tile{
+    background: url("subject1_pic.png") no-repeat;
+    background-position: center;
+}
+
+#subject2-tile{
+    background: url("subject2_pic.png") no-repeat;
+    background-position: center;
+}
+
+#subject1-tile span, #subject2-tile span, #subject3-tile span{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0px;
+}
+
+.panel-footer section, .text-center{
+    color: rgba(255, 255, 255, 0.879);
+    text-align: center;
+}
+
+.panel-footer span{
+    font-size: 1.25em;
+}
+
+.text-center{
+    margin-top: 30px;
+}
+
+hr{
+    background-color: rgba(255, 255, 255, 0.879);
+}
+
+#testimonials{
+    font-style: italic;
+}
+
+/* Maths Categories Page start*/
+.category-tile{
+    position: relative;
+    border: 2px solid green;
+    overflow: hidden;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 15px;
+}
+
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+/* Maths Categories Page end*/
+
+/* single-category.html start*/
+#main-content div{
+    color: rgba(255, 255, 255, 0.877);
+}
+
+.calculus1-chapter-tile{
+    margin-bottom: 25px;
+}
+
+.calculus1-chapter-tile hr{
+    width: 80%;
+}
+
+.calculus1-chapter-photo{
+    position: relative;
+    border: 2px solid green;
+    overflow: hidden;
+    padding: 0px;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 250px;
+}
+
+.calculus1-chapter-photo div{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+
+.calculus1-chapter-description{
+    padding-right: 30px;
+}
+
+h3.calculus1-chapter-title{
+    margin: 0 0 10px;
+}
+
+.calculus1-chapter-details{
+    font-size: .9em;
+    font-style: italic;
+}
+
+/* single-category.html end*/
+@media (min-width: 1200px){
+}
+
+@media (min-width: 768px) and (max-width:1199px){
+    #logo-img{
+        background: url("main_pic_mid.png") no-repeat;
+        width: 104px;
+        height: 99px;
+        margin: 5px 5px 5px 0;
+    }
+    .navbar-brand{
+        padding: 5px;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px){
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .title{
+        padding-top: 10px;
+        font-size: 5vw;
+    }
+    .navbar-brand p{
+        font-size: 14px;
+        margin-top: 12px;
+    }
+    .navbar-brand p img {
+        height: 20px;
+    }
+    .nav-link{
+        font-size: 16px;
+    }
+
+    #subject1-tile, #subject2-tile{
+        width: 95%;
+        margin: 0 auto 15px;
+    }
+
+    .calculus1-chapter-photo{
+        margin-right: auto;
+    }
+
+    h3.calculus1-chapter-title{
+        margin: 0 0 10px;
+        text-align: center;
+    }
+}
